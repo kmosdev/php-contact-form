@@ -28,7 +28,7 @@ if(isset($_GET['pass'])) {
 
 }
 
-if($password == 'nsipartners'):
+if($password == 'changeme'):
 
 
 
@@ -57,7 +57,9 @@ if($password == 'nsipartners'):
     <?php
 
     $x = 0;
-
+    /*
+    * This needs to be changed to get fields from the config file
+    */
     foreach($records as $r) { ?>
       <tr>
 
