@@ -1,0 +1,22 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+table {
+	width: 80%;
+	margin: 10px auto;
+	border: 1px solid #ddd;
+}
+
+th {
+	text-align: left;
+}
+
+tr {
+	border: 1px solid #ddd;
+	border-width: 0 0 1px 0;
+}
+
+td, th {
+	padding: 5px;
+}
